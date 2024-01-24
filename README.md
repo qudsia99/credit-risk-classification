@@ -35,8 +35,5 @@ Machine Learning Model 1:
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+Both machine models performed as intended, although one stood out more than the other. The first machine model scored more realistically and in a good range for accuracy, precision and recall scores. As for the second model, we see that that the randomly oversampled data was overfitting the model, where the predictions were hitting 99% values. Despite this appearing like a phenomenal model, this may cause restraints with other newer data that does not perfectly align with the training data, potentially causing the model to fail. 
 
-If you do not recommend any of the models, please justify your reasoning.
